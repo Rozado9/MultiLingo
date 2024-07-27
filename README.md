@@ -24,7 +24,7 @@ Stellen Sie sicher, dass Python 3.10 auf Ihrem System installiert ist, um Kompat
 
 ## Screenshots
 
-Deutsch zu Arbaisch
+Deutsch zu Arbaisch mit Spracheingabe 
 
 ![deutsche Sprache](Screenshot_deutsche_Sprache_arabisch.png)
 
