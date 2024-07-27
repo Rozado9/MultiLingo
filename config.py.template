@@ -1,0 +1,7 @@
+# Konfigurationsdatei für MultiLingo
+# Bitte ersetzen Sie die folgenden Werte durch Ihre eigenen Azure API Schlüssel und speichern die Datei als 'config.py'
+
+AZURE_TRANSLATOR_KEY = "Hier_Ihren_Translator_API_Schlüssel_eintragen"
+AZURE_TRANSLATOR_REGION = "Hier_Ihre_Region_eintragen"
+AZURE_SPEECH_KEY = "Hier_Ihren_Speech_Service_API_Schlüssel_eintragen"
+AZURE_SPEECH_REGION = "Hier_Ihre_Region_eintragen"
