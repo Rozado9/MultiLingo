@@ -22,3 +22,8 @@ MultiLingo nutzt die Azure Translator und Azure Speech Services, um eine reibung
 
 Stellen Sie sicher, dass Python 3.10 auf Ihrem System installiert ist, um Kompatibilitätsprobleme zu vermeiden.
 
+## Screenshots
+
+![deutsche Sprache](Screenshot deutsche Sprache - arabisch.png)
+
+
