@@ -14,14 +14,18 @@ MultiLingo nutzt die Azure Translator und Azure Speech Services, um eine reibung
 
 ## Technologien
 
-- **Python:** Hauptprogrammiersprache
+- **Python 3.10:** Hauptprogrammiersprache.
 - **PyQt5:** Für die GUI-Komponenten.
 - **Azure Cognitive Services:** Für Übersetzungs- und Spracherkennungsdienste.
 
+## Systemanforderungen
+
+Stellen Sie sicher, dass Python 3.10 auf Ihrem System installiert ist, um Kompatibilitätsprobleme zu vermeiden.
+
 ## Setup und Installation
 
-Um **MultiLingo** zu verwenden, folgen Sie diesen Schritten:
+Um **MultiLingo** zu verwenden, benötigen Sie gültige API-Schlüssel für die Azure Translator und Azure Speech Services, die Sie in den Quellcode der Anwendung einfügen müssen.
 
-1. **Clone das Repository:**
+1. **Repository klonen:**
    ```bash
    git clone https://github.com/yourusername/MultiLingo.git
