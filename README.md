@@ -24,7 +24,13 @@ Stellen Sie sicher, dass Python 3.10 auf Ihrem System installiert ist, um Kompat
 
 ## Screenshots
 
+Deutsch zu Arbaisch
+
 ![deutsche Sprache](Screenshot_deutsche_Sprache_arabisch.png)
+
+Englisch zu Deutsch 
+
+![deutsche Sprache](Screenshot-01.png)
 
 
 
