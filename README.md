@@ -22,6 +22,30 @@ MultiLingo nutzt die Azure Translator und Azure Speech Services, um eine reibung
 
 Stellen Sie sicher, dass Python 3.10 auf Ihrem System installiert ist, um Kompatibilitätsprobleme zu vermeiden.
 
+## Setup und Installation
+
+Um **MultiLingo** zu verwenden, folgen Sie diesen Schritten:
+
+1. **Klonen Sie das Repository:**
+   ```bash
+   git clone https://github.com/yourusername/MultiLingo.git
+
+2. **Installieren Sie die erforderlichen Pakete:**
+   ```bash
+   pip install -r requirements.txt
+3. **Konfigurieren Sie Ihre Azure API-Schlüssel:**
+   - **Kopieren Sie die config.py.template Datei und benennen Sie sie um in config.py.**
+   - **Öffnen Sie die config.py Datei und tragen Sie Ihre Azure API-Schlüssel und die entsprechenden Regionen ein.**
+     
+4. **Starten Sie die Anwendung:**
+   ```bash
+   python multilingo.py 
+   
+
+
+
+   
+
 ## Screenshots
 
 Deutsch zu Arbaisch mit Spracheingabe 
