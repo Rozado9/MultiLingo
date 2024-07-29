@@ -30,11 +30,11 @@ class MainWindow(QMainWindow):
         # Setup main window properties
         self.setWindowTitle('MultiLingo')
         self.setFixedSize(1027, 578)
-        self.setWindowIcon(QIcon(self.resource_path('assets/data.ico')))
+        self.setWindowIcon(QIcon(self.resource_path('data.ico')))
 
     def set_background_image(self):
         # Set background image for the main window
-        pixmap = QPixmap(self.resource_path("assets/BG-APP.png"))
+        pixmap = QPixmap(self.resource_path("BG-APP.png"))
         self.bg = QLabel(self)
         self.bg.setPixmap(pixmap)
         self.bg.resize(1027, 578)
