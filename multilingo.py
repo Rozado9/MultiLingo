@@ -30,11 +30,11 @@ class MainWindow(QMainWindow):
         # Setup main window properties
         self.setWindowTitle('MultiLingo')
         self.setFixedSize(1027, 578)
-        self.setWindowIcon(QIcon(self.resource_path('data.ico')))
+        self.setWindowIcon(QIcon(self.resource_path('assets/data.ico')))
 
     def set_background_image(self):
         # Set background image for the main window
-        pixmap = QPixmap(self.resource_path("BG-APP.png"))
+        pixmap = QPixmap(self.resource_path("assets/BG-APP.png"))
         self.bg = QLabel(self)
         self.bg.setPixmap(pixmap)
         self.bg.resize(1027, 578)
@@ -187,9 +187,14 @@ class MainWindow(QMainWindow):
         self.close()
 
     def resource_path(self, relative_path):
-        # Function to handle resource path issues in bundled applications
         try:
             base_path = sys._MEIPASS
         except AttributeError:
             base_path = os.path.abspath(".")
-        return os.path.join(base_path,
+        return os.path.join(base_path, relative_path)
+
+if __name__ == "__main__":
+       app = QApplication(sys.argv)
+       window = MainWindow()
+       window.show()
+       sys.exit(app.exec_())
